@@ -8,5 +8,7 @@ Tři chybné věci: 1. Některé kroužky jsou napsané s prvním písmem malým
 
 
 prihlasky: PK id_prihlasky, FK id_zaka → zaci, FK id_krouzku → krouzky.
+
 Zaci: PK id_zaka, FK id_prihlaska → prihlasky, FK id_krouzku → krouzky
+
 krouzky: PK id_krozku, FK id_prihlasky → prihlaska, FK id_zaka → Zaci
